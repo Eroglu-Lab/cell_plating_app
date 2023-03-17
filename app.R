@@ -9,7 +9,7 @@
 
 library(shiny)
 
-# Define UI for application that draws a histogram
+# Define UI for application
 ui <- fluidPage(
 
     # Application title
@@ -44,7 +44,7 @@ ui <- fluidPage(
     h5("*Note: calculations provide exact volumes, add extra wells if you can to account for pipetting error")
 )
 
-# Define server logic required to draw a histogram
+# Define server logic 
 server <- function(input, output) {
 
     doCalc <- function() {
